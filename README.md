@@ -14,6 +14,7 @@ Requirements:
 •	A Google Cloud Platform account. 
 •	To build the IoT sensor portion of this lab instead of leveraging sample data and a script, we will also need the following 
 o	Raspberry Pi with power supply, SD memory card and case, USB card reader, Female-to-male breadboard wires, Polar T34 Heart Rate Transmitter and Polar Heart Rate receiver. In addition, we should have access to a computer monitor or TV with HDMI input, HDMI cable, keyboard and a mouse is assumed.
+
 Steps to Setup Google cloud IoT
 1.	Sign-in to Google Cloud Platform console ( console.cloud.google.com).
 2.	Create a new project with name ‘iot-heartrate’.
