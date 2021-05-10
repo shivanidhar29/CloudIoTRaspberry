@@ -2,6 +2,8 @@
 Using Cloud IoT to stream Heart rate data Using Raspberry Pie
 Cloud Internet of Things IoT Core is a fully managed service to connect, manage, and ingest data from globally dispersed devices easily and securely. Cloud IoT Core, in combination with other services on Cloud IoT platform, provides a complete solution for collecting, processing, analyzing, and visualizing IoT data in real time to support improved operational efficiency. Google Cloud's IoT Core addresses simplifies these tasks which makes it easier to focus on gaining value and insight from an IoT project.
 In this lab, A Raspberry Pi with a heart rate sensor will be used for the IoT device and several components of the Google Cloud Platform will form the data pipeline. We will build a data pipeline that starts with an Internet of Things (IoT) device that captures heart rate, leverages IoT Core to securely publish the data to a message queue where it will then be transported into a data warehouse. 
+![image](https://user-images.githubusercontent.com/81333410/117591581-bfbbca80-b0fa-11eb-8472-041650c7669f.png)
+
  
 After completing the steps in this lab, you will have a streaming data pipeline feeding a data warehouse where it can be retrieved to graphically display heart rate data over time.
  
